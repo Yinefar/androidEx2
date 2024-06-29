@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical"
+ android:padding="18dp">
+ <TextView
+ android:id="@+id/textView2"
+ android:layout_width="match_parent"
+ android:layout_height="39dp"
+ android:background="@color/purple_200"
+ android:text="Pregunta 02"
+ android:textAlignment="center"
+ android:textColor="@color/purple_700"
+ android:textStyle="bold"
+ android:textSize="20sp"/>
+ <EditText
+ android:id="@+id/txtMarca"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Marca: samsung/panasonic/lg/sony" />
+ <EditText
+ android:id="@+id/txtPulgada"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:hint="Pulgadas (19/21)" />
+ <Button
+ android:id="@+id/btnCalcular"
+ android:layout_width="match_parent"
+ android:layout_height="37dp"
+ android:background="@color/purple_200"
+ android:onClick="calcular"
+ android:text="Calcular" />
+ <TextView
+ android:id="@+id/txtDolares"
+ android:layout_width="match_parent"
+ android:layout_height="56dp"
+ android:text="Precio en dólares"
+android:textSize="20sp"/>
+ <TextView
+ android:id="@+id/txtSoles"
+ android:layout_width="match_parent"
+ android:layout_height="56dp"
+ android:text="Precio en soles con IGV"
+ android:textSize="20sp"/>
+</LinearLayout>
